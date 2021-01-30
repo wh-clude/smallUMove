@@ -1,0 +1,87 @@
+.search {
+  width: 100%;
+  height: 0.52rem;
+  background: linear-gradient(#FF6040, #FF8A80);
+  overflow: hidden;
+}
+.search .searchBox {
+  width: 3.55rem;
+  height: 0.32rem;
+  background-color: #fff;
+  margin: 0.1rem;
+  line-height: 0.32rem;
+}
+.search .searchBox .icon-sousuo {
+  font-size: 0.16rem;
+  color: #999;
+  margin-left: 0.12rem;
+}
+.search .searchBox input {
+  width: 3.17rem;
+  margin-left: 0.06rem;
+  height: 0.22rem;
+  font-size: 0.14rem;
+  border: none;
+}
+.content {
+  background-color: #f2f2f2;
+  height: 78vh;
+  display: flex;
+}
+.content .con-left {
+  width: 1.18rem;
+  background-color: #fff;
+}
+.content .con-left ul {
+  height: 78vh;
+  overflow: auto;
+}
+.content .con-left ul li {
+  line-height: 0.44rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #999;
+}
+.content .con-left ul .active {
+  color: #FF6040;
+  font-size: 0.16rem;
+}
+.content .con-right {
+  flex: 1;
+  overflow: auto;
+}
+.content .con-right .vessel {
+  width: 2.32rem;
+  height: 2.18rem;
+  background-color: #fff;
+  margin: 0.15rem 0.1rem 0 0.15rem;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+.content .con-right .vessel h3 {
+  font-size: 0.16rem;
+  color: #333;
+}
+.content .con-right .vessel .box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.content .con-right .vessel .box .shop {
+  width: 0.64rem;
+  height: 0.81rem;
+  margin: 0.1rem 0.1rem 0 0;
+}
+.content .con-right .vessel .box .shop img {
+  width: 100%;
+}
+.content .con-right .vessel .box .shop p {
+  font-size: 0.12rem;
+  color: #999;
+  line-height: 0.17rem;
+  text-align: center;
+}
+.content .con-right .vessel .box .shop:nth-child(3n) {
+  margin-right: 0;
+}

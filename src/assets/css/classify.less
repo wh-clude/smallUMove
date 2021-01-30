@@ -1,0 +1,90 @@
+.search{
+    width: 100%;
+    height: .52rem;
+    background:linear-gradient(#FF6040,#FF8A80);
+    overflow: hidden;
+    .searchBox{
+        width: 3.55rem;
+        height: .32rem;
+        background-color: #fff;
+        margin: .1rem;
+        line-height: .32rem;
+        .icon-sousuo{
+
+            font-size: .16rem;
+            color: #999;
+            margin-left: .12rem;
+        }
+        input{
+            width: 3.17rem;
+            margin-left: .06rem;
+            height: .22rem;
+            font-size: .14rem;
+            border: none;
+        }
+    }
+}
+
+.content{
+    background-color: #f2f2f2;
+    height: 78vh;
+    display: flex;
+    .con-left{
+        width: 1.18rem;
+        background-color: #fff;
+        ul{
+            height: 78vh;
+            overflow: auto;
+            li{
+                line-height: .44rem;
+                text-align: center;
+                font-size: .14rem;
+                color: #999;
+            }
+            .active{
+                color: #FF6040;
+                font-size: .16rem;
+            }
+        }
+    }
+    .con-right{
+        flex: 1;
+        overflow: auto;
+        .vessel{
+            width: 2.32rem;
+            height: 2.18rem;
+            background-color: #fff;
+            margin: .15rem .1rem 0 .15rem;
+            padding: .1rem;
+            box-sizing: border-box;
+            h3{
+                font-size: .16rem;
+                color: #333;
+            }
+            .box{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                
+                .shop{
+                    width: .64rem;
+                    height: .81rem;
+                    margin: .1rem .1rem 0 0;
+                    img{
+                        width: 100%;
+                    }
+                    p{
+                        font-size: .12rem;
+                        color: #999;
+                        line-height: .17rem;
+                        text-align: center;
+                    }
+                    &:nth-child(3n){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}

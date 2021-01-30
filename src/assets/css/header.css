@@ -1,0 +1,20 @@
+.header{
+    height: .44rem;
+    background-color:#FF6040;
+    display: flex;  
+}
+.leftArrow{
+    width: .09rem;
+    height: .17rem;
+    margin: .135rem .17rem;
+}
+.center{
+    text-align: center;
+    color: #fff;
+    line-height: .44rem;
+    font-size: .17rem;
+    opacity: 0.8;
+}
+.flex{
+    flex: 1;
+}

@@ -1,0 +1,26 @@
+.container {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+.container .content {
+  width: 3.55rem;
+  height: 6.7rem;
+  background-color: #fff;
+  margin: 0.1rem auto;
+  overflow: hidden;
+}
+.container .content .logo {
+  height: 0.48rem;
+  margin-top: 2.44rem;
+  text-align: center;
+}
+.container .content .logo img {
+  width: 1.82rem;
+  height: 100%;
+}
+.container .content .login {
+  width: 3.05rem;
+  height: 0.49rem;
+  background-color: #ccc;
+  margin: 0.1rem auto;
+}
